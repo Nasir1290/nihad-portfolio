@@ -73,7 +73,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="py-24 scroll-smooth">
       <div className="max-w-6xl mx-auto px-5">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <motion.h2
