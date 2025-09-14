@@ -139,7 +139,7 @@ const Hero: React.FC = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center relative bg-gradient-to-b from-[#1a1a2e] via-[#1a1a2e] to-[#0a0a0f] overflow-hidden"
+      className="min-h-screen lg:mt-24 xl:mt-0 2xl:mt-0 flex items-center relative bg-gradient-to-b from-[#1a1a2e] via-[#1a1a2e] to-[#0a0a0f] overflow-hidden"
     >
       {/* Animated Lines */}
       <div className="absolute inset-0 bg-[linear-gradient(90deg,transparent_95%,rgba(0,212,255,0.1)_100%),linear-gradient(0deg,transparent_95%,rgba(0,212,255,0.1)_100%)] bg-[length:100px_100px] animate-moveLines"></div>
